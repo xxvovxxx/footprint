@@ -88,7 +88,7 @@ HTML_TEMPLATE = """
         <div class="error">{{ error }}</div>
     {% endif %}
 
-    <form method="post" enctype="multipart/form-data" class="card">
+   <form method="post" action="/" enctype="multipart/form-data" class="card">
         <div class="grid-2">
             <div>
                 <h2>A</h2>
